@@ -7,6 +7,9 @@ public class MathConstants {
     public static double calculateCircleArea(double r) {
         return PI * r * r;
     }
+        public static double calculateCircumference(double r) {
+        return 2 * PI * r;
+    }
 
     public static double calculateExponentialGrowth(double initialValue, double rate, double time) {
         return initialValue * Math.pow(E, rate * time);
