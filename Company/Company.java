@@ -19,6 +19,6 @@ public class Company {
     }
 
     void printCompanyName(){
-        System.out.println("Company Name: " + companyName + "; Name: " + this.employeeName + "; ID: " + employeeID);
+        System.out.println("Company Name: " + companyName);
     }
 }
