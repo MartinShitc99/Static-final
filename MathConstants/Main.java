@@ -5,6 +5,8 @@ public class Main {
         double area = MathConstants.calculateCircleArea(14.14);
 
         System.out.println(MathConstants.calculateCircleArea(3));
+        System.out.println(MathConstants.calculateCircumference(4));
+
 
         double result = MathConstants.calculateExponentialGrowth(11,12,13);
 
